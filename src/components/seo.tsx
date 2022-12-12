@@ -1,5 +1,6 @@
 import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
+import icon from "../images/mousse_logo_square.png";
 
 export const SEO = ({ title, description, pathname, children }: any) => {
   const {
@@ -23,16 +24,7 @@ export const SEO = ({ title, description, pathname, children }: any) => {
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content={seo.title} />
-      <meta name="twitter:url" content={seo.url} />
-      <meta name="twitter:description" content={seo.description} />
-      <meta name="twitter:image" content={seo.image} />
-      <meta name="twitter:creator" content={seo.twitterUsername} />
-      <link
-        rel="icon"
-        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>👤</text></svg>"
-      />
+      <link rel="icon" href={icon} />
       {children}
     </>
   );

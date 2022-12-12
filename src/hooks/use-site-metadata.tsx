@@ -6,7 +6,6 @@ export const useSiteMetadata = () => {
       site {
         siteMetadata {
           title
-          image
           siteUrl
         }
       }

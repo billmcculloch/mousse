@@ -3,7 +3,6 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `MOUSSE`,
-    image: `/mousse_logo_square.png`,
     siteUrl: `https://www.moussemusic.com`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

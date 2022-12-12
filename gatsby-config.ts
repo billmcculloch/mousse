@@ -11,6 +11,7 @@ const config: GatsbyConfig = {
 
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-plugin-netlify",
     {
       resolve: `gatsby-omni-font-loader`,
       options: {

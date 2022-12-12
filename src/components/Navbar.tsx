@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 
 import { useEffect, useState } from "react";
 import * as s from "./Navbar.module.scss";
-import logo from "../images/mousse_logo_transparent.png";
+import logo from "../images/mousse_logo_transparent.svg";
 import gsap from "gsap";
 
 function Navbar() {

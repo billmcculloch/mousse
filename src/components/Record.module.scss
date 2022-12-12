@@ -1,0 +1,12 @@
+@import "/src/styles/config";
+
+.record {
+  height: 300px;
+  width: 300px;
+  background-color: wheat;
+  transition: 500ms;
+}
+.record:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}

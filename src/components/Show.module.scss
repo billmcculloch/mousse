@@ -1,0 +1,20 @@
+@import "/src/styles/config";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  width: 65%;
+  .child {
+    padding: 20px;
+    border: 1.5px solid white;
+    border-radius: 15px;
+    color: white;
+  }
+  transition: 290ms;
+}
+.container:hover {
+  cursor: pointer;
+  transition: 500ms;
+  transform: translateY(-8px);
+}

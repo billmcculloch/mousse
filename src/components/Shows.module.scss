@@ -1,0 +1,12 @@
+@import "/src/styles/config";
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 100%;
+  background-color: black;
+  .shows {
+    margin-top: 50px;
+  }
+}

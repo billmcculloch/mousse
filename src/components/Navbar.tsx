@@ -9,19 +9,19 @@ function Navbar() {
   const [checked, setChecked] = useState(false);
   const nav: any = useRef();
 
-  useEffect(() => {
-    window.addEventListener("scroll", () => {
-      setChecked(false);
-      console.log(window.scrollY);
-      if (window.scrollY > 400) {
-        gsap.to([nav.current], {
-          backgroundColor: "#b82050",
-          duration: 0.7,
-          zIndex: 999,
-        });
-      }
-    });
-  });
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     setChecked(false);
+  //     console.log(window.scrollY);
+  //     if (window.scrollY > 400) {
+  //       gsap.to([nav.current], {
+  //         backgroundColor: "#b82050",
+  //         duration: 0.7,
+  //         zIndex: 999,
+  //       });
+  //     }
+  //   });
+  // });
 
   return (
     <>

@@ -8,9 +8,10 @@ function Shows() {
     <div className={s.wrapper}>
       <div className={s.shows}>
         <Title title={"SHOWS"} />
+        <p>Stay tuned</p>
+        {/* <Show date={"12/12/2022"} />
         <Show date={"12/12/2022"} />
-        <Show date={"12/12/2022"} />
-        <Show date={"12/12/2022"} />
+        <Show date={"12/12/2022"} /> */}
       </div>
     </div>
   );

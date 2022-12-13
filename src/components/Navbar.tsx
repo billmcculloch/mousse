@@ -12,14 +12,16 @@ function Navbar() {
   // useEffect(() => {
   //   window.addEventListener("scroll", () => {
   //     setChecked(false);
-  //     console.log(window.scrollY);
-  //     if (window.scrollY > 400) {
-  //       gsap.to([nav.current], {
-  //         backgroundColor: "#b82050",
-  //         duration: 0.7,
-  //         zIndex: 999,
-  //       });
-  //     }
+  //     gsap.to([nav.current], {
+  //       display: "none",
+  //     });
+  //     // if (window.scrollY > 400) {
+  //     //   gsap.to([nav.current], {
+  //     //     display: "none",
+  //     //     duration: 0.7,
+  //     //     zIndex: 999,
+  //     //   });
+  //     // }
   //   });
   // });
 
@@ -28,7 +30,7 @@ function Navbar() {
       <div className={s.navbar} ref={nav}>
         <img className={s.logo} src={logo} />
 
-        <div className={s.wrapper} id={"burger"}>
+        {/* <div className={s.wrapper} id={"burger"}>
           <div id={s.menuToggle}>
             <input
               type="checkbox"
@@ -52,7 +54,7 @@ function Navbar() {
               </a>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

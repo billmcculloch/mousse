@@ -1,6 +1,6 @@
 import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
-import icon from "../images/mousse_logo_red.svg";
+import icon from "../images/mousse_man_red.png";
 
 export const SEO = ({ title, description, pathname, children }: any) => {
   const {

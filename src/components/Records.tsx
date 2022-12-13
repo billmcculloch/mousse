@@ -10,8 +10,8 @@ function Records() {
     <>
       <Title title={"LISTEN"} />
       <div className={s.records}>
-        <Record imgUrl={LMF} onClick={() => console.log("clicked LMF")} />
         <Record imgUrl={LOL} onClick={() => console.log("clicked LOL")} />
+        <Record imgUrl={LMF} onClick={() => console.log("clicked LMF")} />
       </div>
     </>
   );

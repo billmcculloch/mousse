@@ -24,6 +24,8 @@ export const SEO = ({ title, description, pathname, children }: any) => {
       <title>{seo.title}</title>
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <link href={icon} rel="apple-touch-icon" sizes="120×120" />
+      <link href={icon} rel="apple-touch-icon" sizes="152×152" />
       <link rel="icon" href={icon} />
       {children}
     </>

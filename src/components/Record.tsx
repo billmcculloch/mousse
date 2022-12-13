@@ -1,4 +1,4 @@
-import React, { MouseEventHandler } from "react";
+import React, { MouseEventHandler, useEffect } from "react";
 import * as s from "./Record.module.scss";
 
 type ShowProps = {

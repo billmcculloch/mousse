@@ -16,8 +16,15 @@
   filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.8));
 }
 .logo {
+  text-align: center;
   margin: 0px auto;
   height: 70px;
+}
+
+.logoFull {
+  margin: 0px auto;
+  height: 100px;
+  display: none;
 }
 
 .wrapper {

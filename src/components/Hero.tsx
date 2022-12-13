@@ -1,12 +1,13 @@
 import { url } from "inspector";
 import React from "react";
 import * as s from "./Hero.module.scss";
+import logo from "../images/mousse_name_white.svg";
 
 function Hero() {
   return (
     <>
       <div className={s.wrapper}>
-        <div className={s.logo}>MOUSSE</div>
+        <img className={s.logo} src={logo} />
       </div>
     </>
   );
